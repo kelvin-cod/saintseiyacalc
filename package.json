@@ -3,12 +3,11 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "node server.js",
+    "start": "ng serve",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e",
-    "postinstall": "ng build --aot --prod"
+    "e2e": "ng e2e"
   },
   "engines": {
     "node": "10.13.0",
@@ -18,7 +17,7 @@
   "dependencies": {
     "@angular-devkit/build-angular": "~0.801.1",
     "@angular/animations": "~8.1.1",
-    "@angular/cdk": "~8.2.3",
+    "@angular/cdk": "^8.2.3",
     "@angular/cli": "~8.1.1",
     "@angular/common": "~8.1.1",
     "@angular/compiler": "~8.1.1",
